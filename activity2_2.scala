@@ -33,13 +33,17 @@ object activity2_2 {
     def func5() : Unit = {
       c += 1
       val temp = c
-      println(temp * a) 
+      println(temp * a)
       c = temp * a
       println(c)
       a += 1
     }
 
-
+    func1()
+    func2()
+    func3()
+    func4()
+    func5()
   }
 
 }
