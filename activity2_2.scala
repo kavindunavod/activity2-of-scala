@@ -12,8 +12,9 @@ object activity2_2 {
     var g: Float = 4.0f
 
     def func1() : Unit = {
+      b-=1
+      println(b * a + c * d)
 
-      println(-b * a + c * d)
     }
 
     def func2() : Unit = {
@@ -33,8 +34,7 @@ object activity2_2 {
     def func5() : Unit = {
       c += 1
       val temp = c
-      println(temp * a)
-      c = temp * a
+      c=temp*a
       println(c)
       a += 1
     }
@@ -47,3 +47,4 @@ object activity2_2 {
   }
 
 }
+s
