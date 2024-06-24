@@ -2,7 +2,7 @@ object activity2_4 {
   def calculate(price2 : Array[Int] ): Unit = {
 
     val attendance=new Array[Int](price2.length)
-    val salary=new Array[Int](price2.length)
+    val profit=new Array[Int](price2.length)
 
 
     for(i<-price2.indices)
@@ -14,12 +14,12 @@ object activity2_4 {
       val attend=500
       for(i<-attendance.indices)
         {
-          salary(i)= attendance(i)*price2(i)-500-3*attendance(i)
+          profit(i)= attendance(i)*price2(i)-500-3*attendance(i)
 
         }
 
 
-         display(salary,attendance,price2)
+         display(profit,attendance,price2)
 
 
 
