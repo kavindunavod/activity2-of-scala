@@ -1,8 +1,8 @@
 object activity2_4 {
   def calculate(price2 : Array[Int] ): Unit = {
 
-    val attendance=Array(0,0,0,0,0,0,0,0)
-    val salary=Array(0,0,0,0,0,0,0,0)
+    val attendance=new Array[Int](price2.length)
+    val salary=new Array[Int](price2.length)
 
 
     for(i<-price2.indices)
