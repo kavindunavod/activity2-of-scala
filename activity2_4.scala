@@ -14,9 +14,10 @@ object activity2_4 {
       val attend=500
       for(i<-attendance.indices)
         {
-          salary(i)=attend + attendance(i)*price2(i)-500-3*attendance(i)
+          salary(i)= attendance(i)*price2(i)-500-3*attendance(i)
 
         }
+
 
          display(salary,attendance,price2)
 
